@@ -8,7 +8,7 @@ import {
   type StorageDriverStoreContext,
   type StorageDriverRetrieveContext,
   type StorageDriverTargetInfo,
-} from '@temporalio/common/lib/converter/extstore';
+} from '@temporalio/common';
 import type { S3StorageDriverClient } from './client';
 
 const PayloadProto = proto.temporal.api.common.v1.Payload;
